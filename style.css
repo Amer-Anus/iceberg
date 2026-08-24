@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.title{
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+ 
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/iceberg.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
