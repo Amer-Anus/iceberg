@@ -5,7 +5,7 @@
 }
 
 
-
+/* 
 .title{
     text-align: center;
     font-size: 3vh;
@@ -22,6 +22,60 @@
     height: 100vh;
     background-image: url("images/iceberg.jpg");
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
-}
+} */
+
+
+        body{
+            background-image: url(images/iceberg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: center; */
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            /* background-color: aqua; */
+            border: 1px solid black;
+            width: 100vw;
+            height: 20vh;
+        }
+
+        .container{
+            width: 100vw;
+            height: 40vh;
+            border: 1px solid black;
+        }
+
+        .first-layer{
+            /* background-color: antiquewhite; */
+        }
+
+        .l1{
+            /* background-color: rgb(255, 222, 180); */
+        }
+
+                .l2{
+            /* background-color: rgb(255, 212, 157); */
+        }
+
+                .l3{
+            /* background-color: rgb(255, 208, 146); */
+        }
+
+                .l4{
+            /* background-color: rgb(251, 200, 133); */
+        }
+
+                .l5{
+            /* background-color: rgb(255, 191, 107); */
+        }
+
+                .l6{
+            /* background-color: rgb(221, 161, 81); */
+        }
